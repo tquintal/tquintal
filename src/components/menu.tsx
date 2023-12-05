@@ -112,9 +112,7 @@ const NavItem = ({ onClick, content, isCurrent }: NavItemProps) => {
     >
       <div className="flex flex-col items-center gap-1">{content}</div>
       <div
-        className={`w-12 max-sm:w-4 max-sm:mt-1 h-[1px] transition-colors duration-300 ${
-          isCurrent ? "bg-zinc-300" : "bg-transparent"
-        }`}
+        className={`w-6 max-sm:w-4 max-sm:mt-1 h-[1px] transition-colors duration-300 ${isCurrent ? "bg-zinc-300" : "bg-transparent"}`}
       />
     </div>
   );
