@@ -2,7 +2,8 @@ import { BsCodeSlash as code, BsMusicNoteBeamed as music } from "react-icons/bs"
 import { CgGym as gym } from "react-icons/cg";
 import { FaMountain as nature } from "react-icons/fa";
 import { GiGuitarHead as guitar, GiMountainRoad as roadTrips, GiRaceCar as cars } from "react-icons/gi";
-import { PiMicrophoneStageBold as concerts } from "react-icons/pi";
+import { PiMicrophoneStageBold as concerts, PiPottedPlant as plants } from "react-icons/pi";
+import { FiBookOpen as books } from "react-icons/fi";
 
 import Container from "../components/container";
 import { IconType } from "react-icons";
@@ -36,8 +37,15 @@ const Interests = () => {
         <Interest icon={concerts} title="concerts">
           who doesn't love a good concert or music festival?
         </Interest>
+        <Interest icon={plants} title="plants">
+          plants fascinate me just like watching a web solution grow - witnessing their natural development is a source of constant
+          wonder and joy
+        </Interest>
+        <Interest icon={books} title="books">
+          I'm starting to enjoy and explore the amazing world of books
+        </Interest>
         <Interest icon={gym} title="gym">
-          this is where I take care of my body and mind
+          this is where I take care of my body
         </Interest>
       </div>
     </Container>
