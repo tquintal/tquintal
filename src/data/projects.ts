@@ -70,7 +70,7 @@ export const projects: Project[] = [
       },
     ],
     description:
-      "In my present role at CodeWin, I engage in collaborative work within a team, adhering to the agile methodology and leveraging cutting-edge technologies. I have experience working with the 'T3 Stack,' integrating tools like Prisma, tRPC, NextJS, and tailwindCSS. This project and its technologies have given me the opportunity to contribute effectively as a full-stack developer.",
+      "In my present role at CodeWin, I engage in collaborative work within a team, adhering to the agile methodology and leveraging cutting-edge technologies. I have experience working with the 'T3 Stack,' integrating tools like Prisma, tRPC, NextJS, and tailwindCSS.",
     smallDescription: "CodeWin - agile, team-work, full-stack, t3 stack, prisma, tRPC, nextJS, reactJs, typescript, git",
     logo: codewin,
     hideImage: true,
