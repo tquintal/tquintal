@@ -13,7 +13,7 @@ const Projects = () => {
 
   return (
     <Container id="PROJECTS" forwardRef={projectsRef} title="projects & experience" defaultView description="what I've been doing">
-      <div className="flex gap-2 max-md:flex-col">
+      <div className="flex gap-2 max-lg:flex-col">
         {projects.map((project) => (
           <Card key={project.id} id={project.id} logo={project.logo} />
         ))}

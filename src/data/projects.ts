@@ -1,6 +1,8 @@
 import activcopylogo from "../assets/activcopy/activcopy.svg";
 import activcopy from "../assets/activcopy/activcopy.png";
 import codewin from "../assets/codewin.svg";
+import callToConsciousnessLogo from "../assets/call-to-consciousness/call-to-consciousness.png";
+import callToConsciousness from "../assets/call-to-consciousness/screenshot_1.png";
 
 type Projects = {
   id: string;
@@ -27,6 +29,16 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: "1",
+    name: "Call to consciousness",
+    description:
+      "🌐 This project is a Next.js application created to serve as a portfolio website for my sister.\n\n🔐 I have successfully implemented a login system using NextAuth.\n\n🎨 Additionally, I have integrated interface elements to enable dynamic content editing. This is facilitated by Prisma ORM, allowing for efficient database interactions and data modeling.\n\n🚀 Furthermore, these features have been implemented using tRPC, a framework for building type-safe APIs. This ensures robust communication between the front-end and back-end, enhancing the overall performance and reliability of the application.\n\n🔗 Learn more about the project's development at the following link: https://github.com/tquintal/call-to-consciousness/",
+    smallDescription: "nextJS, reactJS, typescript, tRPC, prismaORM, fullstack, backoffice, login, UX/UI, forms, git",
+    logo: callToConsciousnessLogo,
+    image: callToConsciousness,
+    link: "https://www.call-to-consciousness.com/",
+  },
+  {
+    id: "2",
     name: "CodeWin",
     projects: [
       {
@@ -77,7 +89,7 @@ export const projects: Project[] = [
     link: "https://www.codewin.pt/",
   },
   {
-    id: "2",
+    id: "3",
     name: "Activcopy",
     description:
       "I was in charge of designing, conceptualizing, developing, and implementing the website. This allowed me to incorporate essential React functionalities, manage forms, translations, and ensure responsiveness. I delivered Activcopy a contemporary, optimized solution that authentically represents the company, significantly enhancing its digital presence.",

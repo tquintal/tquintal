@@ -79,7 +79,7 @@ const Project = () => {
         )}
         <div className="flex gap-2">
           <div className="flex gap-4 max-sm:flex-wrap">
-            <span className="text-zinc-200">{project?.description}</span>
+            <span className="whitespace-pre-line text-zinc-200">{project?.description}</span>
             {!project.hideImage && project.image && <Monitor imgSrc={project.image} link={project.link} />}
           </div>
         </div>
