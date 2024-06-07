@@ -79,7 +79,17 @@ const Project = () => {
         )}
         <div className="flex gap-2">
           <div className="flex gap-4 max-sm:flex-wrap">
-            <span className="whitespace-pre-line text-zinc-200">{project?.description}</span>
+            <div>
+              <span className="whitespace-pre-line text-zinc-200">{project?.description}</span>
+              {project.repoLink && (
+                <span className="text-zinc-200">
+                  🔗 Learn more about the project's development at the following link:{" "}
+                  <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+                    {project.repoLink}
+                  </a>
+                </span>
+              )}
+            </div>
             {!project.hideImage && project.image && <Monitor imgSrc={project.image} link={project.link} />}
           </div>
         </div>

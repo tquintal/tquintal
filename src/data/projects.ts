@@ -24,6 +24,7 @@ export type Project = {
   logo?: string;
   hideImage?: boolean;
   link?: string;
+  repoLink?: string;
 };
 
 export const projects: Project[] = [
@@ -31,11 +32,12 @@ export const projects: Project[] = [
     id: "1",
     name: "Call to consciousness",
     description:
-      "🌐 This project is a Next.js application created to serve as a portfolio website for my sister.\n\n🔐 I have successfully implemented a login system using NextAuth.\n\n🎨 Additionally, I have integrated interface elements to enable dynamic content editing. This is facilitated by Prisma ORM, allowing for efficient database interactions and data modeling.\n\n🚀 Furthermore, these features have been implemented using tRPC, a framework for building type-safe APIs. This ensures robust communication between the front-end and back-end, enhancing the overall performance and reliability of the application.\n\n🔗 Learn more about the project's development at the following link: https://github.com/tquintal/call-to-consciousness/",
+      "🌐 This project is a Next.js application created to serve as a portfolio website for my sister.\n\n🔐 I have successfully implemented a login system using NextAuth.\n\n🎨 Additionally, I have integrated interface elements to enable dynamic content editing. This is facilitated by Prisma ORM, allowing for efficient database interactions and data modeling.\n\n🚀 Furthermore, these features have been implemented using tRPC, a framework for building type-safe APIs. This ensures robust communication between the front-end and back-end, enhancing the overall performance and reliability of the application.\n\n",
     smallDescription: "nextJS, reactJS, typescript, tRPC, prismaORM, fullstack, backoffice, login, UX/UI, forms, git",
     logo: callToConsciousnessLogo,
     image: callToConsciousness,
     link: "https://www.call-to-consciousness.com/",
+    repoLink: "https://github.com/tquintal/call-to-consciousness/",
   },
   {
     id: "2",
