@@ -19,6 +19,7 @@ I'm a front-end developer dedicated to turning designs into functional and optim
 	- SQL
 	- Prisma
 	- tRPC
+ 	- Git
 	- Quarkus
 	- Adobe Suite
 - Recently, I've been engaged in several projects, including international ones. I particularly emphasize a project where I had a full-stack contribution, as well as recent independent full-stack projects.
