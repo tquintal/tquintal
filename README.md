@@ -7,8 +7,8 @@ I'm a front-end developer dedicated to turning designs into functional and optim
 - Programming:
 	- JavaScript
 	- TypeScript
+ 	- Java
 	- C#
-	- Java
 - Tools and frameworks
 	- ReactJS
 	- NextJS
