@@ -29,7 +29,7 @@ const Interests = () => {
           find me outside, at the beach or in the mountains – it doesn't matter
         </Interest>
         <Interest icon={guitar} title="guitar">
-          I play the guitar, and Jimi Hendrix is my inspiration
+          I play guitar, check out my band on instagram: @batiiiskaf
         </Interest>
         <Interest icon={music} title="music">
           I love listening to music from all genres, but especially rock
@@ -38,14 +38,13 @@ const Interests = () => {
           who doesn't love a good concert or music festival?
         </Interest>
         <Interest icon={plants} title="plants">
-          plants fascinate me just like watching a web solution grow - witnessing their natural development is a source of constant
-          wonder and joy
+          plants fascinate me just like watching a project grow
         </Interest>
         <Interest icon={books} title="books">
           I'm starting to enjoy and explore the amazing world of books
         </Interest>
         <Interest icon={gym} title="gym">
-          this is where I take care of my body
+          this is my favourite playground
         </Interest>
       </div>
     </Container>

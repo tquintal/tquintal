@@ -1,5 +1,6 @@
 import { IconType } from "react-icons";
 import { GrMysql as sql } from "react-icons/gr";
+import { FaJava as java } from "react-icons/fa";
 import {
   SiAdobe as adobeSuite,
   SiCsharp as csharp,
@@ -13,6 +14,8 @@ import {
   SiTailwindcss as tailwind,
   SiTrpc as trpc,
   SiTypescript as typeScript,
+  SiAngular as angular,
+  SiQuarkus as quarkus,
 } from "react-icons/si";
 
 import Container from "../components/container";
@@ -46,22 +49,26 @@ const Technologies = () => {
       <div className="flex w-full gap-3 max-sm:flex-col-reverse">
         <div className="w-full p-1 border border-zinc-700">
           What truly excites me are these technologies, but I am not afraid to learn new things. I love writing clean and optimized
-          code, always striving to follow the best practices and adopt the latest technologies.
+          code, always striving to follow the best practices and adopt the latest technologies. I'm currently working/learning Java and
+          Angular.
         </div>
         <div className="flex flex-wrap justify-end gap-5 p-5 border max-sm:justify-between border-zinc-700">
+          <Skill icon={javasSript} description="javaScript" percentage="80" />
           <Skill icon={typeScript} description="typeScript" percentage="80" />
+          <Skill icon={java} description="java" percentage="60" />
+          <Skill icon={csharp} description="c#" percentage="60" />
           <Skill icon={react} description="reactJS" percentage="80" />
           <Skill icon={nextJS} description="nextJS" percentage="80" />
-          <Skill icon={tailwind} description="tailwindCSS" percentage="80" />
-          <Skill icon={trpc} description="tRPC" percentage="70" />
-          <Skill icon={prisma} description="prisma" percentage="70" />
-          <Skill icon={sql} description="sql" percentage="65" />
-          <Skill icon={git} description="git" percentage="80" />
-          <Skill icon={javasSript} description="javaScript" percentage="80" />
+          <Skill icon={angular} description="angular" percentage="60" />
           <Skill icon={html} description="html5" percentage="80" />
           <Skill icon={css} description="css3" percentage="75" />
-          <Skill icon={adobeSuite} description="adobe suite" percentage="55" />
-          <Skill icon={csharp} description="c#" percentage="55" />
+          <Skill icon={tailwind} description="tailwindCSS" percentage="80" />
+          <Skill icon={sql} description="sql" percentage="70" />
+          <Skill icon={prisma} description="prisma" percentage="80" />
+          <Skill icon={trpc} description="tRPC" percentage="70" />
+          <Skill icon={git} description="git" percentage="80" />
+          <Skill icon={quarkus} description="quarkus" percentage="60" />
+          <Skill icon={adobeSuite} description="adobe suite" percentage="60" />
         </div>
       </div>
     </Container>
