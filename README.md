@@ -4,30 +4,15 @@ I'm a front-end developer dedicated to turning designs into functional and optim
 
 ## Experience and Skills
 
-- Programming:
-	- JavaScript
-	- TypeScript
- 	- Java
-	- C#
-- Tools and frameworks
-	- ReactJS
-	- NextJS
-	- Angular
-	- HTML5
-	- CSS3
-	- TailwindCSS
-	- SQL
-	- Prisma
-	- tRPC
- 	- Git
-	- Quarkus
-	- Adobe Suite
-- Recently, I've been engaged in several projects, including international ones. I particularly emphasize a project where I had a full-stack contribution, as well as recent independent full-stack projects.
+- **Programming:** JavaScript, TypeScript, Java, C#
+- **Libraries/frameworks/other:** ReactJS NextJS Angular HTML5 CSS3 TailwindCSS SQL, Prisma, tRPC, Git, Quarkus, Adobe Suite
+
+- Recent focus on full-stack projects, both team-based and independent.
 
 ## Future Goals
 
-I'm committed to continuously enhancing my front-end development skills and also exploring the back-end domain. Always eager to learn new technologies and development practices. I'm currently working/learning Java and Angular.
+Eager to deepen my front-end expertise while expanding my back-end skills. Currently exploring **Java** and **Angular**, and always open to learning new technologies.
 
-Welcome to my profile! Feel free to explore my repositories and reach out for collaborations or interesting discussions.
+Feel free to check out my repositories or reach out for collaborations!
 
-Thanks for stopping by!
+Thanks for visiting!
